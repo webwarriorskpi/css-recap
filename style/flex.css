@@ -1,0 +1,27 @@
+.parent{
+    width: 1000px;
+    border: 2px solid red;
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+}
+
+
+.parent1{
+    width: 1000px;
+    border: 2px solid red;
+    height: 90vh;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
