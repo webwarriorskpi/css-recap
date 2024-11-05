@@ -1,0 +1,26 @@
+.parent{
+    width: 1440px;
+    height: 90vh;
+    border: 2px solid goldenrod;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+}
+
+.child{
+    width: 100%;
+    /* width: 100px; */
+    /* height: 100px; */
+    height: 100%;
+    border: 1px solid rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.child-1{
+    grid-column: span 3;
+    grid-row: span 3;
+}
